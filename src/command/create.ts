@@ -73,7 +73,7 @@ export const checkVersion = async (name: string, version: string) => {
 }
 
 // 检查版本更新
-// await checkVersion(name, version);
+checkVersion(name, version);
 
 export async function create(projectName?: string) {
     // 我们需要将我们的 map 处理成 @inquirer/prompts select 需要的形式
